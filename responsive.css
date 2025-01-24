@@ -1,0 +1,70 @@
+@media screen and (max-width: 576px) {
+    .banner {
+      flex-direction: column;
+      min-width: 100%;
+      padding: 2rem;
+    }
+    .header_image {
+      max-width: 100%;
+    }
+    .header_image img {
+      min-width: 20%;
+    }
+    .header_content h1 {
+      color: #121212;
+      font-family: var(--interFamily);
+      font-size: 2rem;
+      font-weight: bold;
+      min-width: 100%;
+    }
+    .header_content p {
+      font-size: 0.6rem;
+      font-weight: bold;
+      min-width: 100%;
+    }
+    .donate_des {
+      min-width: 98%;
+    }
+    .donate_amount {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .amount_feild {
+      padding: 0;
+      margin: 0.3rem;
+      min-width: 97%;
+    }
+    .amount_feild input {
+      min-width: 100%;
+      margin-bottom: 2rem;
+    }
+    .donate_paln_cards{
+      flex-direction: column;
+    }
+    .doante_plan h1{
+      font-size: 2rem;
+    }
+    .donate_pan_des{
+      max-width: 90%;
+    }
+    .about_one{
+      flex-direction: column;
+    }
+    .about_image_one, .about_image_two {
+      margin: auto;
+      min-width: 100%;
+      
+    }
+    .about_image_one img, .about_image_two img{
+      min-width: 100%;
+    }
+    .update_des{
+      max-width: 90%;  
+    }
+    .email{
+      background-color: #fff;
+    }
+    .email input{
+      border: 1px solid orangered;
+    }
+  }
+  
